@@ -142,14 +142,14 @@ const Carousel = ({ images, onImageClick }) => {
 
   return (
     <>
-      <button
+      {/* <button
         className={`admin-secret-btn ${glowing ? 'glowing' : ''}`}
         onClick={handleAdminClick}
         aria-hidden="true"
         tabIndex={-1}
       >
         admin
-      </button>
+      </button> */}
 
       <div
         className="carousel-wrapper"
