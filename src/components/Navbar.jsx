@@ -10,7 +10,7 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handler)
   }, [])
 
-  const links = ['Services', 'Why Us', 'Reviews', 'Contact']
+  const links = ['Services', 'Why Us', 'Reviews', 'Gallery', 'Contact']
 
   return (
     <nav style={{
