@@ -1,0 +1,29 @@
+@import '@fontsource/bebas-neue';
+@import '@fontsource/source-serif-4/400.css';
+@import '@fontsource/source-serif-4/600.css';
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --slate:    #1C2333;
+  --dark:     #0F1520;
+  --brass:    #C9A84C;
+  --brass-lt: #E2C97E;
+  --stone:    #F0EDE6;
+  --steel:    #8A9BB0;
+  --mist:     #2E3A50;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Source Serif 4', Georgia, serif;
+  background: var(--dark);
+  color: var(--stone);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, nav, button {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.05em;
+}
